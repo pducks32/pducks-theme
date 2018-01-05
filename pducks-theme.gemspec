@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Patrick Metcalfe"]
   spec.email         = ["git@patrickmetcalfe.com"]
 
-  spec.summary       = %q{The theme fo Patrick's blog}
+  spec.summary       = %q{The theme for Patrick's blog}
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_sass|LICENSE|README)}i) }
