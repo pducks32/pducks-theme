@@ -10,13 +10,23 @@
   position: relative;
 }
 
+.site-title-wrapper {
+  float: left;
+  margin-top: 0.25em;
+}
+
+.site-logo {
+  display: inline;
+  max-width: 3em;
+  padding-bottom: 0.75em;
+}
+
 .site-title {
   font-size: 26px;
   font-weight: 300;
   line-height: 56px;
   letter-spacing: -1px;
   margin-bottom: 0;
-  float: left;
 
   &,
   &:visited {
